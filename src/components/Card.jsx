@@ -21,13 +21,13 @@ function Card() {
         Datos Curiosos
       </h1>
       <img
-        className="max-h-96 max-w-xs mx-auto rounded-3xl shadow-2xl shadow-slate-200"
+        className="max-h-60 mx-auto rounded-3xl shadow-2xl shadow-slate-200"
         src={randomData.img}
       ></img>
       <h2 className="text-center my-7 text-xl font-bold [text-shadow:_0_1px_30px_rgb(148_163_184_/_50%)]">
         ¿Sabias Que?
       </h2>
-      <p className="text-justify [text-shadow:_0_1px_30px_rgb(148_163_184_/_50%)]">
+      <p className="text-sm md:text-base text-justify [text-shadow:_0_1px_30px_rgb(148_163_184_/_50%)]">
         {randomData.title}
       </p>
       <button
